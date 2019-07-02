@@ -11,7 +11,7 @@ enableRobotsTXT = true
 enableGitInfo = true
 pygmentsstyle = "tango"
 PygmentsCodeFences = true
-
+DefaultContentLanguage = "no"
 [author]
   name = "sudorook"
   email = "daemon@nullcodon.com"
@@ -25,3 +25,25 @@ PygmentsCodeFences = true
   share = true
   searchURL = "https://duckduckgo.com"
   related = "all"
+
+[languages]
+
+  [languages.no]
+  languageName = "Norsk"
+  weight = 10
+  contentDir = "content/no"
+  
+  [languages.en]
+  languageName = "English"
+  weight = 1
+  contentDir = "content/en"
+
+  [languages.fr]
+  languageName = "Français"
+  weight = 2
+  contentDir = "content/fr"
+
+  [languages.es]
+  languageName = "Spanish"
+  weight = 3
+  contentDir = "content/es"
