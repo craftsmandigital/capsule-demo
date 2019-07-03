@@ -1,4 +1,5 @@
 baseURL = "https://sudorook.gitlab.io/capsule-demo"
+# DefaultContentLanguage = "no"
 languageCode = "en-us"
 title = "Capsule Demo"
 description = "Demonstration of features available in Capsule theme for Hugo."
@@ -11,7 +12,6 @@ enableRobotsTXT = true
 enableGitInfo = true
 pygmentsstyle = "tango"
 PygmentsCodeFences = true
-DefaultContentLanguage = "no"
 [author]
   name = "sudorook"
   email = "daemon@nullcodon.com"
@@ -33,10 +33,21 @@ DefaultContentLanguage = "no"
   weight = 10
   contentDir = "content/no"
   
+  title = "Capsule test NO"
+  description = "Demonstrasjon av funksjoner tilgjengelige i Capsule tema for Hugo"
+  
+# [taxonomies]
+#   category = "Kategorier"
+#   tag = "tagger"
+
+
   [languages.en]
   languageName = "English"
   weight = 1
   contentDir = "content/en"
+  
+  title = "Capsule test EN"
+  description = "Demonstration of features available in Capsule theme for Hugo."
 
   [languages.fr]
   languageName = "Français"
